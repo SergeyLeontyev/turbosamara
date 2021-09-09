@@ -1,0 +1,51 @@
+.faq
+	padding: 128px 0px
+	&-box
+		max-width: 872px
+		min-height: 480px
+		width: 100%
+		list-style: none
+		margin: 0
+		padding: 0
+		box-sizing: border-box
+		background: $white
+	&-list
+		margin-bottom: 8px
+	&-article
+		box-sizing: border-box
+		width: 100%
+		padding: 18px 24px
+		display: flex
+		justify-content: flex-start
+		cursor: pointer
+		align-items: center
+		background-color: $gray
+		border-radius: 6px
+		font-style: normal
+		font-weight: 500
+		font-size: 16px
+		line-height: 20px
+		transition: all 0.5s ease
+		color: $darkGray
+		position: relative
+		margin: 0
+		&-active
+			color: $blue
+			.sprite-arrow-faq
+				transform: rotate(-180deg)
+				transition: all 0.5s ease
+				stroke: $blue
+	&-answer
+		box-sizing: border-box
+		padding: 16px 24px 24px 24px
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 24px
+		color: $black
+		box-sizing: border-box
+		transition: 0.5s
+		display: none
+		margin: 0
+		&-active
+			display: block

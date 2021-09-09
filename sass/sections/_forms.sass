@@ -1,0 +1,112 @@
+.form
+	&-callback
+		display: flex
+		flex-wrap: wrap
+		max-width: 968px	
+		width: 100%
+		.form
+			&-input
+				margin-bottom: 0
+				margin-right: 16px
+				&:nth-child(2)
+					margin-bottom: 0
+					margin-right: 40px
+			&-checkbox
+				margin-left: auto
+		.btn
+			&-form
+				margin-bottom: 16px
+					
+	&-block
+		&__discount
+			max-width: 316px
+			width: 100%
+	&-title
+		color: $white
+		font-size: 24px
+		line-height: 100%
+		width: 100%
+		margin-bottom: 24px
+	&-input
+		max-width: 304px
+		width: 100%
+		height: 48px
+		border: 1px solid $gray
+		background-color: $white
+		box-sizing: border-box
+		border-radius: 6px
+		position: relative
+		margin-bottom: 16px
+		&:nth-child(2)
+			margin-bottom: 32px				
+		input
+			width: 100%
+			height: 100%
+			padding-left: 56px
+			font-style: normal
+			font-weight: 500
+			color: $darkGray
+			border: none
+			background-color: transparent
+			&::placeholder
+				color: $darkGray
+		.sprite
+			&-form
+				position: absolute
+				left: 16px
+				top: 12px
+	&-checkbox
+		label
+			position: relative
+			font-style: normal
+			font-weight: 500
+			font-size: 10px
+			line-height: 12px
+			letter-spacing: 0.02em
+			color: $darkGray
+			a
+				text-decoration: none
+				font-style: normal
+				font-weight: 500
+				font-size: 10px
+				line-height: 12px
+				letter-spacing: 0.02em
+				color: $darkGray
+				position: relative
+				transition: all 0.5s ease
+				&:before
+					position: absolute
+					content: ''
+					width: 100%
+					height: 0.5px
+					background-color: $darkGray
+					bottom: 1px
+					transition: all 0.5s ease
+				&:hover
+					color: $white
+					&:before
+						background-color: $white
+
+		input[type="checkbox"]
+			display: none          
+		input[type="checkbox"] + label
+			position: relative
+			cursor: pointer
+			padding-left: 24px
+		input[type="checkbox"] + label:before
+			position: absolute
+			top: -3px
+			left: 0
+			content: ""
+			display: inline-block
+			height: 16px!important
+			width: 16px!important
+			border: 1px solid $darkGray
+			border-radius: 2px
+			background: $white no-repeat center
+		input[type="checkbox"]:checked + label:before 
+			background: url(../img/icons/check.svg) $white no-repeat center
+		input[type="checkbox"]:disabled + label:before 
+			border: 1px solid $lightGray
+			background-color: $white
+		input[type="checkbox"]:checked:disabled + label:before 

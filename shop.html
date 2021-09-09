@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Turbo-Samara</title>
+	<link rel="stylesheet" href="css/style.min.css?v=4.0">
+	<link rel="stylesheet" href="fonts/fonts.css?v=4.0">
+	<link rel="stylesheet" href="slick/slick.css?v=4.0">
+	<link rel="stylesheet" href="slick/slick-theme.css?v=4.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body id="no-scroll">
+	<!-- Шапка сайта -->
+	<header class="header">
+		<div class="block block-header">
+			<a href="#" class="link header-logo">
+				<svg class="sprite sprite-logotype">
+					<use xlink:href="img/sprite.svg#logotype"></use>
+				</svg>
+			</a>
+			<div class="header-block__contacts">
+				<div class="header-contacts header-contacts__position">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#arrow-pos"></use>
+					</svg>
+					<div class="header-contacts__adress">
+						<ul class="adress-list">
+							<li class="adress-list__li link-adress">Самара
+							<ul class="adress-list__submenu">
+								<li class="adress-list__li"><a href="" class="link link-adress">Оренбург</a></li>
+								<li class="adress-list__li"><a href="" class="link link-adress">Ульяновск</a></li>
+							</ul>
+							</li>
+						</ul>
+						<p class="header-adress__text">ул.Авроры, 150 "А"<br><span>По будням, с 9.00 до 20.00</span></p>
+					</div>
+				</div>
+				<div class="header-contacts header-contacts__phone">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#phone-signal"></use>
+					</svg>
+					<div class="header-contacts__all">
+						<a href="tel:+78462295464" class="header-contacts__phone">8 (846) 229-54-64</a>
+						<div class="header-contacts__social">
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#whatsapp"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#viber"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><img src="img/icons/tg.svg" alt=""></a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#skype"></use>
+								</svg> </a>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-header">перезвоните мне</button>
+			</div>
+			<a href="#menu" class="burger-menu"><span></span></a>
+		</div>
+		<div class="header-block__nav">
+			<ul class="header-nav">
+				<li class="header-nav__li header-nav__li-dropMenu"><a href="#" class="link link-header-nav">Ремонт
+						турбин</a>
+					<ul class="header-nav header-nav__submenu">
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Ремонт</a></li>
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Продажа</a></li>
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Обмен</a></li>
+					</ul>
+				</li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Продажа турбин</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">СТО</a></li>
+				<li class="header-nav__li header-nav__li-bfr"><a href="#" class="link link-header-nav">Чип-тюнинг</a>
+				</li>
+				<li class="header-nav__li header-nav__li-bfr"><a href="#" class="link link-header-nav">Картриджи и
+						запчасти турбин</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Франшиза</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Стоимость</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Контакты</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Главный экран -->
+	<section class="main main-shop">
+		<div class="block block-shop">
+			<div class="main-content__text">
+				<div class="main-text main-text__shop">
+					<h1 class="main-title">Продажа турбин</h1>
+					<p class="main-subtitle">Для легковых и грузовых авто<br>
+						от 6 000 до 45 000 ₽</p>
+					<div class="main-box"><button class="btn btn-shop">подобрать турбину</button><button class="btn btn-about">узнать о ремонте</button></div>
+						<p class="main-descr">Мы поможем подобрать наиболее оптимальный вариант.
+							На нашем складе всегда в наличии турбокомпрессоры
+							лучших мировых производителей для легковых
+							и грузовых автомобилей европейского и американского производства, микро- автобусов, автобусов и спецтехники.</p>
+						<span class="main-descr__sub">«Garrett», «Holset», «KKK», «Hitachi», «Mitsubishi», «Schwitzer», «Toyota», «Borg Warner Turbo Systems», «IHI», «Турбоком»</span>
+				</div>
+			</div>
+			<div class="main-content__img">
+				<div class="main-img"><img src="img/all/img-main-2.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Блок "Почему покупают у нас?" -->
+	<section class="advantages">
+		<div class="block block-advantages">
+			<h2 class="section-title section-title__advantages">Почему покупают у нас?</h2>
+			<div class="advantages-point">
+				<img src="img/icons/warehouse.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Свой склад​</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/price.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Низкие цены от производителей​</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/guarantee.svg" alt="" class="advantages-point__icon">
+				<p class="text-all"> Гарантия качества</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/delivery.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Доставка по России</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Блок "Скидка 10%" -->
+	<section class="discount">
+		<div class="block block-discount">
+			<h2 class="section-title section-title__discount">Скидка 10%<br>
+				на работу мастера</h2>
+			<div class="form-block__discount">
+				<h4 class="form-title">Оставить заявку</h4>
+				<form action="" class="form-discount">
+					<div class="form-input"><svg class="sprite sprite-form">
+							<use xlink:href="img/sprite.svg#user"></use>
+						</svg><input type="text" placeholder="Ваше имя"></div>
+					<div class="form-input"><svg class="sprite sprite-form">
+							<use xlink:href="img/sprite.svg#phone-form"></use>
+						</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+					<button class="btn btn-form">Оставить заявку</button>
+					<div class="form-checkbox">
+						<input id="1" type="checkbox" name="first" checked hidden /><label for="1">Я согласен на <a
+								href="#">обработку моих персональных данных</a></label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Блок "Работаем со всеми авто" -->
+	<section class="coop">
+		<div class="block block-coop">
+			<h2 class="section-title section-title__coop">Турбины для всех авто</h2>
+			<div class="coop-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+
+				</div>
+				<!-- Add Scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<ul class="coop-list">
+				<li class="coop-list__li"><a href="#" class="link link-coop">Audi, Ауди</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Alfa Romeo, Альфа Ромео</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">BMW, БМВ</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Dodge, Додж</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Fiat, Фиат</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Ford, Форд</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Honda, Хонда</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">KIA, КИА</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Land Rover, Range Rover</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Toyota Land Cruiser</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop"> Mazda, Мазда</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mercedes-Benz, Мерседес</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mitsubishi</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Nissan, Ниссан</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Scania, Скания</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mazda CX-7</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Freightliner, Фредлайнер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Дизельных двигателей</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Opel, Опель</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Peugeot, Пежо</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Renault, Рено</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Rover, Ровер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Saab, Сааб</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Skoda, Шкода</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Ssang Yong, Санг Енг</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Subaru, Субару</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Suzuki, Сузуки</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Toyota, Тойота</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Volkswagen, VW</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Volvo, Iveco, Man</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">КамАЗ, ЛиАз, ПАЗ</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Caterpillar, Катерпиллер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop"> Komatsu, Hitachi, JCB</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">OPEL 1.4 T, 1.6 T, Insignia</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">НИВА Chevrolet</a></li>
+			</ul>
+			<button class="btn btn-coop">показать все бренды</button>
+		</div>
+	</section>
+
+	<!-- Блок "Записаться на осмотр" -->
+	<section class="callback callback-shop">
+		<div class="block block-callback">
+			<h2 class="section-title section-title__callback">Скидка на работы	при обмене<br> старой турбины <div class="callback-box__img">
+
+				<svg class="sprite sprite-callback-turbo"><use xlink:href="img/sprite.svg#turbo"></use></svg>
+				<svg class="sprite sprite-callback-swap"><use xlink:href="img/sprite.svg#swap"></use></svg>
+				<svg class="sprite sprite-callback-discount"><use xlink:href="img/sprite.svg#discount"></use></svg>
+			</div></h2>
+			<form action="" class="form-callback">
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#user"></use>
+					</svg><input type="text" placeholder="Ваше имя"></div>
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#phone-form"></use>
+					</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+				<button class="btn btn-form">Оставить заявку</button>
+				<div class="form-checkbox">
+					<input id="2" type="checkbox" name="first" checked hidden /><label for="2">Я согласен на <a
+							href="#">обработку моих персональных данных</a></label>
+				</div>
+			</form>
+
+		</div>
+	</section>
+
+	<section class="faq">
+		<div class="block block-faq">
+			<h2 class="section-title section-title__faq">Частые вопросы
+				<svg class="sprite sprite-faq">
+					<use xlink:href="img/sprite.svg#faq"></use>
+				</svg>
+			</h2>
+			<ul class="faq-box">
+				<li class="faq-list">
+					<p class="faq-article">Можно ли отремонтировать актуатор турбины?<svg class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+				<li class="faq-list">
+					<p class="faq-article">Ломается ли турбина из-за времени?<svg
+							class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+				<li class="faq-list">
+					<p class="faq-article">На что распространяется гарантия?<svg
+							class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+				<li class="faq-list">
+					<p class="faq-article">У меня лопнул коллектор (горячий корпус) турбины, что делать? Заменять турбину?<svg class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+				<li class="faq-list">
+					<p class="faq-article">Можно ли отремонтировать калитку клапана вестгейт (wastegate)?<svg class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+				<li class="faq-list">
+					<p class="faq-article">Могу ли я пригнать Вам автомобиль и сделать все в комплексе?<svg class="sprite sprite-arrow-faq">
+							<use xlink:href="img/sprite.svg#arrow-down"></use>
+						</svg></p>
+					<p class="faq-answer">Да, можно. Мы профессионально занимаемся ремонтом актуаторов
+						турбокомпрессоров.
+						Все оригинальные запчасти есть в наличии, кроме крышек с платой.
+						Также наша команда может подобрать Вам вариант нового актуатора за приемлемые деньги.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- Шапка подвал -->
+	<footer class="footer">
+		<div class="map" id="map">
+			<a class="dg-widget-link"
+				href="http://2gis.ru/samara/firm/70000001021026540/center/50.1874566078186,53.21041480590519/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+				на карте Самары</a>
+			<div class="dg-widget-link"><a
+					href="http://2gis.ru/samara/firm/70000001021026540/photos/70000001021026540/center/50.1874566078186,53.21041480590519/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+					компании</a></div>
+			<div class="dg-widget-link"><a
+					href="http://2gis.ru/samara/center/50.187466,53.210174/zoom/16/routeTab/rsType/bus/to/50.187466,53.210174╎ТурбоПрофи, СТО?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+					проезд до ТурбоПрофи, СТО</a></div>
+			<script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+			<script
+				charset="utf-8">new DGWidgetLoader({ "width": "100%", "height": "100%", "pos": { "lat": 53.21041480590519, "lon": 50.1874566078186, "zoom": 16 }, "opt": { "city": "samara" }, "org": [{ "id": "70000001021026540" }] });</script>
+		</div>
+		<div class="block block-footer">
+			<div class="footer-block__info">
+				<a href="#" class="link footer-logo"><svg class="sprite sprite-logotype">
+						<use xlink:href="img/sprite.svg#logotype"></use>
+					</svg></a>
+				<div class="footer-contacts footer-contacts__position">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#arrow-pos"></use>
+					</svg>
+					<div class="footer-contacts__adress">
+						<ul class="adress-list">
+							<li class="adress-list__li link-adress">Самара
+							<ul class="adress-list__submenu">
+								<li class="adress-list__li"><a href="" class="link link-adress">Оренбург</a></li>
+								<li class="adress-list__li"><a href="" class="link link-adress">Ульяновск</a></li>
+							</ul>
+							</li>
+						</ul>
+						<p class="footer-adress__text">ул.Авроры, 150 "А"<br><span>По будням, с 9.00 до 20.00</span></p>
+					</div>
+				</div>
+				<div class="footer-contacts footer-contacts__phone">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#phone-signal"></use>
+					</svg>
+					<div class="footer-contacts__all">
+						<a href="tel:+78462295464" class="footer-contacts__phone">8 (846) 229-54-64</a>
+						<div class="footer-contacts__social">
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#whatsapp"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#viber"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><img src="img/icons/tg.svg" alt=""></a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#skype"></use>
+								</svg> </a>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-footer">перезвоните мне</button>
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="popup"><a href="#closepopup" class="popup-close"><span></span></a>
+			<p class="form-title">Оставить заявку</p>
+			<form action="" class="form-discount">
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#user"></use>
+					</svg><input type="text" placeholder="Ваше имя"></div>
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#phone-form"></use>
+					</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+				<button class="btn btn-form">Оставить заявку</button>
+				<div class="form-checkbox">
+					<input id="4" type="checkbox" name="first" checked hidden /><label for="4">Я согласен на <a
+							href="#">обработку моих персональных данных</a></label>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="js/overlay.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script>
+		$('.stages-slider').slick({
+			infinite: false,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			dots: false,
+			arrows: false,
+			focusOnSelect: true,
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+					}
+				},
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					}
+				},
+				{
+					breakpoint: 576,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
+				}
+			]
+		});
+	</script>
+	<script src="js/tabs-faq.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper('.coop-slider', {
+			autoplay: {
+				delay: 1500,
+			},
+			lazy: true,
+			slidesPerView: 5,
+			spaceBetween: 10,
+			freeMode: true,
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				hide: false,
+				draggable: true,
+			},
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 3,
+					spaceBetween: 20
+				},
+				992: {
+					slidesPerView: 5,
+					spaceBetween: 10
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>
+</body>
+
+</html>

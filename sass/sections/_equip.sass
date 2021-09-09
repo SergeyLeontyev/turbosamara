@@ -1,0 +1,51 @@
+.equip
+	padding: 128px 0px
+	background-color: $lightGray
+	&-list
+		list-style: none
+		margin-bottom: 32px
+		display: flex
+		&__nav
+			margin-right: 56px
+			cursor: pointer
+			color: $blue
+			border-bottom: 1px dashed $blue
+			font-style: normal
+			font-weight: 500
+			font-size: 16px
+			line-height: 20px
+			&-active
+				color: $black
+				border: none
+			&:last-child
+				margin-right: 0
+	&-present
+		list-style: none
+		display: flex
+		&__block
+			display: flex
+			justify-content: space-between
+			width: 100%
+			display: none
+			&:first-child
+				display: flex
+		&__text
+			max-width: 632px
+			width: 100%
+			font-style: normal
+			font-weight: normal
+			font-size: 18px
+			line-height: 28px
+			letter-spacing: 0.01em
+			color: $black
+		&__img
+			width: 456px
+			height: 280px
+			display: flex
+			justify-content: center
+			align-items: center
+			border-radius: 6px
+			overflow: hidden
+			img
+				height: auto
+				width: 100%

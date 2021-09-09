@@ -1,0 +1,78 @@
+.blog
+	padding-top: 128px
+	margin-bottom: 128px
+	&-record
+		max-width: 352px
+		width: 100%
+		transition: all 0.5s ease
+		&__img
+			border-radius: 6px
+			width: 100%
+			position: relative
+			margin-bottom: 24px
+			height: 208px
+			img
+				width: 100%
+				height: auto
+		&__data
+			font-style: normal
+			font-weight: normal
+			font-size: 14px
+			line-height: 18px
+			color: $black
+		&__name
+			margin: 8px 0px 16px 0px
+			transition: all 0.3s ease
+			font-size: 24px
+			line-height: 100%
+			color: $black
+		&__descr
+			font-style: normal
+			font-weight: normal
+			font-size: 14px
+			line-height: 18px
+			color: $black
+		&:hover
+			.blog-img__hover
+				opacity: 1
+				transition: all 0.3s ease
+			.blog-img__hover-text
+				bottom: 0
+				transition: all 0.5s ease
+			.sprite-record
+				right: 0
+			.blog-record__name
+				transition: all 0.3s ease
+				color: $blue
+				text-decoration: underline
+			
+	&-img
+		&__hover
+			position: absolute
+			content: ''
+			opacity: 0
+			padding: 24px
+			transition: all 0.3s ease
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			width: 100%
+			background: linear-gradient(0deg, rgba(0, 97, 242, 0.8), rgba(0, 97, 242, 0.8))
+			border-radius: 6px
+			display: flex
+			align-items: flex-end
+			justify-content: space-between
+			overflow: hidden
+			&-text
+				color: $white
+				text-transform: uppercase
+				font-style: normal
+				font-weight: bold
+				font-size: 14px
+				line-height: 17px
+				margin-bottom: 11px
+				position: relative
+				bottom: -50px
+				transition: all 0.5s ease
+		

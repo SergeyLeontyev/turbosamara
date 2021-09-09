@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Turbo-Samara</title>
+	<link rel="stylesheet" href="css/style.min.css?v=4.0">
+	<link rel="stylesheet" href="fonts/fonts.css?v=4.0">
+	<link rel="stylesheet" href="slick/slick.css?v=4.0">
+	<link rel="stylesheet" href="slick/slick-theme.css?v=4.0">
+	<link type="text/css" rel="stylesheet" href="css/lightgallery.min.css?v=4.0" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body id="no-scroll">
+	<!-- Шапка сайта -->
+	<header class="header">
+		<div class="block block-header">
+			<a href="#" class="link header-logo">
+				<svg class="sprite sprite-logotype">
+					<use xlink:href="img/sprite.svg#logotype"></use>
+				</svg>
+			</a>
+			<div class="header-block__contacts">
+				<div class="header-contacts header-contacts__position">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#arrow-pos"></use>
+					</svg>
+					<div class="header-contacts__adress">
+						<ul class="adress-list">
+							<li class="adress-list__li link-adress">Самара
+								<ul class="adress-list__submenu">
+									<li class="adress-list__li"><a href="" class="link link-adress">Оренбург</a></li>
+									<li class="adress-list__li"><a href="" class="link link-adress">Ульяновск</a></li>
+								</ul>
+							</li>
+						</ul>
+						<p class="header-adress__text">ул.Авроры, 150 "А"<br><span>По будням, с 9.00 до 20.00</span></p>
+					</div>
+				</div>
+				<div class="header-contacts header-contacts__phone">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#phone-signal"></use>
+					</svg>
+					<div class="header-contacts__all">
+						<a href="tel:+78462295464" class="header-contacts__phone">8 (846) 229-54-64</a>
+						<div class="header-contacts__social">
+							<a href="" class="link link-social">
+								<svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#whatsapp"></use>
+								</svg> 
+							</a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#viber"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><img src="img/icons/tg.svg" alt=""></a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#skype"></use>
+								</svg> </a>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-header">перезвоните мне</button>
+			</div>
+			<a href="#menu" class="burger-menu"><span></span></a>
+		</div>
+		<div class="header-block__nav">
+			<ul class="header-nav">
+				<li class="header-nav__li header-nav__li-dropMenu"><a href="#" class="link link-header-nav">Ремонт
+						турбин</a>
+					<ul class="header-nav header-nav__submenu">
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Ремонт</a></li>
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Продажа</a></li>
+						<li class="header-nav__li"><a href="" class="link link-header-nav">Обмен</a></li>
+					</ul>
+				</li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Продажа турбин</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">СТО</a></li>
+				<li class="header-nav__li header-nav__li-bfr"><a href="#" class="link link-header-nav">Чип-тюнинг</a>
+				</li>
+				<li class="header-nav__li header-nav__li-bfr"><a href="#" class="link link-header-nav">Картриджи и
+						запчасти турбин</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Франшиза</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Стоимость</a></li>
+				<li class="header-nav__li"><a href="#" class="link link-header-nav">Контакты</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Главный экран -->
+	<section class="main">
+		<div class="block block-main">
+			<div class="main-content__text">
+				<div class="main-text">
+					<h1 class="main-title">Ремонт Турбин</h1>
+					<p class="main-subtitle">Легковых и грузовых авто</p>
+					<ul class="main-list">
+						<li class="main-list__li">Гарантия 1 год</li>
+						<li class="main-list__li">Ремонт от 3 часов</li>
+					</ul>
+				</div>
+				<div class="main-callback">
+					<p class="main-callback__price">2 500 ₽</p>
+					<p class="main-callback__text">Бесплатная диагностика турбины<br><span>до конца октября</span></p>
+					<button class="btn btn-main">записаться</button>
+				</div>
+			</div>
+			<div class="main-content__img">
+				<div class="main-img"><img src="img/all/img-main-1.jpg" alt="">
+					<img src="img/all/img-main-1.jpg" alt="">
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Блок "Наши Услуги" -->
+	<section class="service">
+		<div class="block block-service">
+			<h2 class="section-title section-title__service">Наши услуги</h2>
+			<a href="#" class="link link-service">
+				<div class="service-card">
+					<svg class="sprite sprite-card sprite-card__repair" fill="none">
+						<use xlink:href="img/sprite.svg#repair"></use>
+					</svg>
+					<p class="text-all text-all__card">Ремонт турбин</p>
+				</div>
+			</a>
+			<a href="#" class="link link-service">
+				<div class="service-card">
+					<svg class="sprite sprite-card sprite-card__turbin">
+						<use xlink:href="img/sprite.svg#turbin"></use>
+					</svg>
+					<p class="text-all text-all__card">Продажа турбин, картриджей<br>
+						и запчастей</p>
+				</div>
+			</a>
+			<a href="#" class="link link-service">
+				<div class="service-card">
+					<svg class="sprite sprite-card sprite-card__sto">
+						<use xlink:href="img/sprite.svg#sto"></use>
+					</svg>
+					<p class="text-all text-all__card">СТО,<br>
+						комплексный ремонт</p>
+				</div>
+			</a>
+			<a href="#" class="link link-service">
+				<div class="service-card">
+					<svg class="sprite sprite-card sprite-card__actuator">
+						<use xlink:href="img/sprite.svg#actuator"></use>
+					</svg>
+					<p class="text-all text-all__card">Продажа и ремонт
+						актуаторов турбин</p>
+				</div>
+			</a>
+		</div>
+	</section>
+	<!-- Блок "Почему выбирают нас?" -->
+	<section class="advantages">
+		<div class="block block-advantages">
+			<h2 class="section-title section-title__advantages">Почему выбирают нас?</h2>
+			<div class="advantages-point">
+				<img src="img/icons/garant.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Гарантия до 2х лет
+					на ремонт турбины</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/clock-repair.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Быстрый и профессиональный ремонт от 3х часов</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/spare.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Использование качественных<br>
+					запасных частей</p>
+			</div>
+			<div class="advantages-point">
+				<img src="img/icons/5years.svg" alt="" class="advantages-point__icon">
+				<p class="text-all">Более 5 лет занимаемся ремонтом турбин </p>
+			</div>
+		</div>
+	</section>
+	<!-- Блок "Скидка 10%" -->
+	<section class="discount">
+		<div class="block block-discount">
+			<h2 class="section-title section-title__discount">Скидка 10%<br>
+				на работу мастера</h2>
+			<div class="form-block__discount">
+				<h4 class="form-title">Оставить заявку</h4>
+				<form action="" class="form-discount">
+					<div class="form-input"><svg class="sprite sprite-form">
+							<use xlink:href="img/sprite.svg#user"></use>
+						</svg><input type="text" placeholder="Ваше имя"></div>
+					<div class="form-input"><svg class="sprite sprite-form">
+							<use xlink:href="img/sprite.svg#phone-form"></use>
+						</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+					<button class="btn btn-form">Оставить заявку</button>
+					<div class="form-checkbox">
+						<input id="1" type="checkbox" name="first" checked hidden /><label for="1">Я согласен на <a
+								href="#">обработку моих персональных данных</a></label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- Блок "Этапы ремонта турбины" -->
+	<section class="stages">
+		<div class="block block-stages">
+			<h2 class="section-title section-title__stages">Этапы ремонта турбины </h2>
+			<div class="stages-slider">
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">1</p>
+					<p class="stages-slide__text">Диагностика турбины с постановкой на стенд и использованием актуатор
+						теста</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">2</p>
+					<p class="stages-slide__text">Разбор турбины и оценка повреждений</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">3</p>
+					<p class="stages-slide__text">Чистка запчастей турбины в пескоструйной камере и ультразвуковой ванне
+					</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">4</p>
+					<p class="stages-slide__text">Подбор запчастей турбины, либо картриджа в сборе</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">5</p>
+					<p class="stages-slide__text">Сборка среднего корпуса с постановкой на балансировочный стенд</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">6</p>
+					<p class="stages-slide__text">Обкатка картриджа турбины на высокоскоростном стенде</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">7</p>
+					<p class="stages-slide__text">Замена неисправных дополнительных запасных частей турбины</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">8</p>
+					<p class="stages-slide__text">Сборка турбины</p>
+				</div>
+				<div class="stages-slider__slide">
+					<p class="stages-slide__numb">9</p>
+					<p class="stages-slide__text">Настройка системы изменяемой геометрии турбины</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Блок "Наше оборудование" -->
+	<section class="equip">
+		<div class="block block-equip">
+			<h2 class="section-title section-title__equip">Наше оборудование</h2>
+			<ul class="equip-list">
+				<li class="equip-list__nav equip-list__nav-active">CIMAT</li>
+				<li class="equip-list__nav">DeltaTech</li>
+				<li class="equip-list__nav">Turbo Technics VSFR</li>
+			</ul>
+			<ul class="equip-present">
+				<li class="equip-present__block">
+					<p class="equip-present__text">В своей работе мы используем качественное, высокоточное
+						балансировочное оборудование от Европейского производителя «CIMAT»<br><br>
+
+						Оно отлично зарекомендовало себя во многих странах мира. Данные стенды помогают нам определить
+						течь турбокомпрессора и отбалансировать как запасные части в отдельности, так и картридж
+						турбокомпрессора в сборе. Точность данного оборудования позволяет добиться балансировочных
+						характеристик турбины не уступающим новой.</p>
+					<div class="equip-present__img"><img src="img/equip/img-1.png" alt=""></div>
+				</li>
+				<li class="equip-present__block">
+					<p class="equip-present__text">Оборудование Европейского производителя «DeltaTech» по диагностики
+						и программированию электронных сервоприводов, актуаторов турбин помогает нам определить
+						неисправность навесного оборудования при поступлении турбины в ремонт.<br><br>
+						Также дает возможность выставить диапазон работы системы изменяемой геометрии турбины и убрать
+						ошибки по наддуву турбины.</p>
+					<div class="equip-present__img"><img src="img/equip/img-2.png" alt=""></div>
+				</li>
+				<li class="equip-present__block">
+					<p class="equip-present__text">Стенд «Turbo Technics VSFR» с устройством для настройки системы
+						изменяемой геометрии турбины помогает нам выставить сопловой аппарат турбокомпрессора в
+						правильном диапазоне, что исключает проблему недодува, передува, отсутствия тяги и любых ошибок,
+						связанных с турбокомпрессором.</p>
+					<div class="equip-present__img"><img src="img/equip/img-3.png" alt=""></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- Блок "Работаем со всеми авто" -->
+	<section class="coop">
+		<div class="block block-coop">
+			<h2 class="section-title section-title__coop">Работаем со всеми авто</h2>
+			<div class="swiper-container coop-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/logos/logo-6.png" alt=""></div>
+
+				</div>
+				<!-- Add Scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<ul class="coop-list">
+				<li class="coop-list__li"><a href="#" class="link link-coop">Audi, Ауди</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Alfa Romeo, Альфа Ромео</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">BMW, БМВ</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Dodge, Додж</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Fiat, Фиат</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Ford, Форд</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Honda, Хонда</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">KIA, КИА</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Land Rover, Range Rover</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Toyota Land Cruiser</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop"> Mazda, Мазда</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mercedes-Benz, Мерседес</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mitsubishi</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Nissan, Ниссан</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Scania, Скания</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Mazda CX-7</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Freightliner, Фредлайнер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Дизельных двигателей</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Opel, Опель</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Peugeot, Пежо</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Renault, Рено</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Rover, Ровер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Saab, Сааб</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Skoda, Шкода</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Ssang Yong, Санг Енг</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Subaru, Субару</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Suzuki, Сузуки</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Toyota, Тойота</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Volkswagen, VW</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Volvo, Iveco, Man</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">КамАЗ, ЛиАз, ПАЗ</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">Caterpillar, Катерпиллер</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop"> Komatsu, Hitachi, JCB</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">OPEL 1.4 T, 1.6 T, Insignia</a></li>
+				<li class="coop-list__li"><a href="#" class="link link-coop">НИВА Chevrolet</a></li>
+			</ul>
+			<button class="btn btn-coop">показать все бренды</button>
+		</div>
+	</section>
+	<!-- Блок "Записаться на осмотр" -->
+	<section class="callback">
+		<div class="block block-callback">
+			<h2 class="section-title section-title__callback">Записаться на осмотр</h2>
+			<form action="" class="form-callback">
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#user"></use>
+					</svg><input type="text" placeholder="Ваше имя"></div>
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#phone-form"></use>
+					</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+				<button class="btn btn-form">Оставить заявку</button>
+				<div class="form-checkbox">
+					<input id="2" type="checkbox" name="first" checked hidden /><label for="2">Я согласен на <a
+							href="#">обработку моих персональных данных</a></label>
+				</div>
+			</form>
+
+		</div>
+	</section>
+
+	<!-- Блок "Блог" -->
+	<section class="blog">
+		<div class="block block-blog">
+			<h2 class="section-title section-title__blog">Блог</h2>
+			<a href="#" class="link link-record">
+				<div class="blog-record">
+					<div class="blog-record__img">
+						<img src="img/blog/img-1.jpg" alt="">
+						<div class="blog-img__hover">
+							<p class="blog-img__hover-text">Подробнее</p>
+							<svg class="sprite sprite-record">
+								<use xlink:href="img/sprite.svg#arrowCircle"></use>
+							</svg>
+						</div>
+					</div>
+					<span class="blog-record__data">13 ноября 2019</span>
+					<p class="blog-record__name">Регулировка актуатора турбины</p>
+					<p class="blog-record__descr">Выполняем регулировку актуатора турбины в любой из наших мастерских
+					</p>
+				</div>
+			</a>
+
+			<a href="#" class="link link-record">
+				<div class="blog-record">
+					<div class="blog-record__img">
+						<img src="img/blog/img-2.jpg" alt="">
+						<div class="blog-img__hover">
+							<p class="blog-img__hover-text">Подробнее</p>
+							<svg class="sprite sprite-record">
+								<use xlink:href="img/sprite.svg#arrowCircle"></use>
+							</svg>
+						</div>
+					</div>
+					<span class="blog-record__data">11 ноября 2019</span>
+					<p class="blog-record__name">Актуатор турбины</p>
+					<p class="blog-record__descr">В наличие доступны различные запчасти и агрегаты для турбинных узлов,
+						картриджи и актуаторы турбины по самым выгодным ценам</p>
+				</div>
+			</a>
+
+			<a href="#" class="link link-record">
+				<div class="blog-record">
+					<div class="blog-record__img">
+						<img src="img/blog/img-3.jpg" alt="">
+						<div class="blog-img__hover">
+							<p class="blog-img__hover-text">Подробнее</p>
+							<svg class="sprite sprite-record">
+								<use xlink:href="img/sprite.svg#arrowCircle"></use>
+							</svg>
+						</div>
+					</div>
+					<span class="blog-record__data">5 ноября 2019</span>
+					<p class="blog-record__name">Турбина на камаз евро 2</p>
+					<p class="blog-record__descr">Компания «Турбо Профи» специализируется на реализации и восстановлении
+						таких устройств как турбины на КамАЗ Евро 2, а также предоставлении реальной гарантии на любые
+						проведенные манипуляции.</p>
+				</div>
+			</a>
+			<button class="btn btn-record">Все статьи</button>
+		</div>
+	</section>
+
+	<!-- Блок "Карта Клиента" -->
+	<section class="cardClient">
+		<div class="block block-cardClient">
+			<h2 class="section-title section-title__cardClient">Карта клиента</h2>
+			<p class="text-all text-all__cardClient">
+				При любом ремонте от 10 000 ₽ вы получаете карточку постоянного клиента с определнным набором
+				привилегий.<br><br>
+				Накопительная система скидок от 5 до 25%
+				на работы мастеров и запчасти по СТО
+			</p>
+			<div class="cardClient-block__img">
+				<img src="img/all/card-1.png" alt="" class="cardClient-img"><img src="img/all/card-2.png" alt=""
+					class="cardClient-img">
+			</div>
+		</div>
+	</section>
+
+	<!-- Блок "Карта Команда" -->
+	<section class="command">
+		<div class="block block-command">
+			<h2 class="section-title section-title__command">Наша команда</h2>
+			<div class="command-card">
+				<div class="command-card__photo"><img src="img/photo/img-1.png" alt=""></div>
+				<p class="command-card__name">Иван Иванович</p>
+				<p class="command-card__position">Директор</p>
+			</div>
+			<div class="command-card">
+				<div class="command-card__photo"><img src="img/photo/img-2.png" alt=""></div>
+				<p class="command-card__name">Семён Петрович</p>
+				<p class="command-card__position">Менеджер</p>
+			</div>
+			<div class="command-card">
+				<div class="command-card__photo"><img src="img/photo/img-3.png" alt=""></div>
+				<p class="command-card__name">Олег Денисович</p>
+				<p class="command-card__position">Менеджер</p>
+			</div>
+			<div class="command-card">
+				<div class="command-card__photo"><img src="img/photo/img-4.png" alt=""></div>
+				<p class="command-card__name">Владимир Колесников</p>
+				<p class="command-card__position">Директор филиала в Австралии</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery">
+		<div class="block block-gallery">
+			<h2 class="section-title section-title__gallery">Галерея работ</h2>
+			<div class="gallery-wall" id="lightgallery">
+				<a href="img/gallery/img-1.png"><img src="img/gallery/img-1.png" alt="" class="gallery-img"></a>
+				<a href="img/gallery/img-2.png"><img src="img/gallery/img-2.png" alt="" class="gallery-img"></a>
+				<a href="img/gallery/img-3.png"><img src="img/gallery/img-3.png" alt="" class="gallery-img"></a>
+				<a href="img/gallery/img-4.png"><img src="img/gallery/img-4.png" alt="" class="gallery-img"></a>
+				<a href="img/gallery/img-5.png"><img src="img/gallery/img-5.png" alt="" class="gallery-img"></a>
+				<a href="img/gallery/img-6.png"><img src="img/gallery/img-6.png" alt="" class="gallery-img"></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Шапка сайта -->
+	<footer class="footer">
+		<div class="map" id="map">
+			<a class="dg-widget-link"
+				href="http://2gis.ru/samara/firm/70000001021026540/center/50.1874566078186,53.21041480590519/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+				на карте Самары</a>
+			<div class="dg-widget-link"><a
+					href="http://2gis.ru/samara/firm/70000001021026540/photos/70000001021026540/center/50.1874566078186,53.21041480590519/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+					компании</a></div>
+			<div class="dg-widget-link"><a
+					href="http://2gis.ru/samara/center/50.187466,53.210174/zoom/16/routeTab/rsType/bus/to/50.187466,53.210174╎ТурбоПрофи, СТО?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+					проезд до ТурбоПрофи, СТО</a></div>
+			<script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+			<script
+				charset="utf-8">new DGWidgetLoader({ "width": "100%", "height": "100%", "pos": { "lat": 53.21041480590519, "lon": 50.1874566078186, "zoom": 16 }, "opt": { "city": "samara" }, "org": [{ "id": "70000001021026540" }] });</script>
+		</div>
+		<div class="block block-footer">
+			<div class="footer-block__info">
+				<a href="#" class="link footer-logo"><svg class="sprite sprite-logotype">
+						<use xlink:href="img/sprite.svg#logotype"></use>
+					</svg></a>
+				<div class="footer-contacts footer-contacts__position">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#arrow-pos"></use>
+					</svg>
+					<div class="footer-contacts__adress">
+						<ul class="adress-list">
+							<li class="adress-list__li link-adress">Самара
+								<ul class="adress-list__submenu">
+									<li class="adress-list__li"><a href="" class="link link-adress">Оренбург</a></li>
+									<li class="adress-list__li"><a href="" class="link link-adress">Ульяновск</a></li>
+								</ul>
+							</li>
+						</ul>
+						<p class="footer-adress__text">ул.Авроры, 150 "А"<br><span>По будням, с 9.00 до 20.00</span></p>
+					</div>
+				</div>
+				<div class="footer-contacts footer-contacts__phone">
+					<svg class="sprite sprite-contacts">
+						<use xlink:href="img/sprite.svg#phone-signal"></use>
+					</svg>
+					<div class="footer-contacts__all">
+						<a href="tel:+78462295464" class="footer-contacts__phone">8 (846) 229-54-64</a>
+						<div class="footer-contacts__social">
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#whatsapp"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#viber"></use>
+								</svg> </a>
+							<a href="" class="link link-social"><img src="img/icons/tg.svg" alt=""></a>
+							<a href="" class="link link-social"><svg class="sprite sprite-social">
+									<use xlink:href="img/sprite.svg#skype"></use>
+								</svg> </a>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-footer">перезвоните мне</button>
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="popup"><a href="#closepopup" class="popup-close"><span></span></a>
+			<p class="form-title">Оставить заявку</p>
+			<form action="" class="form-discount">
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#user"></use>
+					</svg><input type="text" placeholder="Ваше имя"></div>
+				<div class="form-input"><svg class="sprite sprite-form">
+						<use xlink:href="img/sprite.svg#phone-form"></use>
+					</svg><input type="text" placeholder="8 (___) ___-__-__"></div>
+				<button class="btn btn-form">Оставить заявку</button>
+				<div class="form-checkbox">
+					<input id="4" type="checkbox" name="first" checked hidden /><label for="4">Я согласен на <a
+							href="#">обработку моих персональных данных</a></label>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="js/overlay.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script>
+		$('.main-img').slick({
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			dots: false,
+			arrows: false,
+			responsive: [
+				{
+					breakpoint: 1199,
+					settings: {
+						slidesToShow: 1,
+					}
+				},
+				{
+					breakpoint: 767,
+					settings: "unslick"
+				}
+			]
+		});
+		$('.stages-slider').slick({
+			infinite: false,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			dots: false,
+			arrows: false,
+			focusOnSelect: true,
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+					}
+				},
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					}
+				},
+				{
+					breakpoint: 576,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
+				}
+			]
+		});
+	</script>
+	<script src="js/lightgallery.min.js"></script>
+	<script src="js/lightgallery-all.min.js"></script>
+	<script src="js/tabs-equip.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#lightgallery").lightGallery();
+		});
+	</script>
+	<script>
+		var swiper = new Swiper('.coop-slider', {
+			autoplay: {
+				delay: 1500,
+			},
+			lazy: true,
+			slidesPerView: 5,
+			spaceBetween: 10,
+			freeMode: true,
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				hide: false,
+				draggable: true,
+			},
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 3,
+					spaceBetween: 20
+				},
+				992: {
+					slidesPerView: 5,
+					spaceBetween: 10
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>
