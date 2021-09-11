@@ -124,6 +124,15 @@
 		&-box
 			max-width: none
 
+	.content
+		&-form
+			max-width: 320px
+		&-main
+			&__block
+				padding: 30px 30px 0px 30px
+				margin-right: 35px
+
+
 
 @media screen and ( max-width: 991px )
 	.no-scroll
@@ -411,6 +420,30 @@
     width: 100%
 				margin-bottom: 32px
     height: 268px!important
+
+
+
+	.content
+		&-form
+			padding: 33px 19px 30px
+			max-width: 270px	
+			.btn-form
+				font-size: 14px
+		&-main
+			&__mark
+				position: relative
+			&__block
+				margin-right: 15px
+		&-block
+			&__text
+				span
+					position: absolute
+					width: 100%
+					left: 0
+					bottom: -5px
+				h2
+					margin-bottom: 0
+
 	
 
 @media screen and ( max-width: 767px )
@@ -568,6 +601,41 @@
 	.faq
 		&-article
 			padding-right: 42px
+
+
+
+
+	.content
+		margin-top: 40px
+		h2
+			font-size: 22px
+			line-height: 28px
+		&-wrap
+			padding: 0px 25px
+		&-main
+			flex-direction: column
+			&__block
+				border-radius: 0
+				padding: 25px
+				span
+					font-size: 16px
+					bottom: 0
+		&-block
+			&__logo
+				width: 90px
+				height: 90px
+		&-form
+			border-radius: 0
+			max-width: none
+			.form
+				&-title
+					text-align: left
+					span
+						max-width: none
+
+	.block
+		&-content
+			max-width: none!important
 
 @media screen and ( max-width: 575px )
 	.block
@@ -825,6 +893,9 @@
 			position: relative
 			height: 400px
 
+
+
+
 @media screen and ( max-width: 474px )
 	body
 		padding-top: 345px
@@ -836,6 +907,15 @@
 			&__position
 				margin-bottom: 24px
 				margin-top: 12px
+
+	.content
+		.form
+			&-title
+				font-size: 18px
+
+		p
+			font-size: 14px
+			line-height: 22px
 
 @media screen and ( max-width: 374px )
 	.block

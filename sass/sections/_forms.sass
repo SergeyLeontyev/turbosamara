@@ -65,7 +65,8 @@
 			letter-spacing: 0.02em
 			color: $darkGray
 			a
-				text-decoration: none
+				text-decoration: underline
+				text-decoration-skip-ink: none
 				font-style: normal
 				font-weight: 500
 				font-size: 10px
@@ -74,18 +75,6 @@
 				color: $darkGray
 				position: relative
 				transition: all 0.5s ease
-				&:before
-					position: absolute
-					content: ''
-					width: 100%
-					height: 0.5px
-					background-color: $darkGray
-					bottom: 1px
-					transition: all 0.5s ease
-				&:hover
-					color: $white
-					&:before
-						background-color: $white
 
 		input[type="checkbox"]
 			display: none          
